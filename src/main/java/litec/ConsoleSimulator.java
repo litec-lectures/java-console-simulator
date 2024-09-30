@@ -1,4 +1,4 @@
-package at.litec;
+package litec;
 
 import static org.junit.Assert.*;
 

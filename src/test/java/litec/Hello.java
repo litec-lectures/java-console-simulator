@@ -1,6 +1,4 @@
-package at.litec;
-
-import java.util.Scanner;
+package litec;
 
 public class Hello
 {

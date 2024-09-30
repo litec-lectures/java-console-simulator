@@ -1,4 +1,4 @@
-package at.litec;
+package litec;
 
 import java.util.Scanner;
 

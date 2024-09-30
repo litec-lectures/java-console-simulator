@@ -1,4 +1,4 @@
-package at.litec;
+package litec;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
@@ -31,7 +31,7 @@ public class AppTest
 
     public void testOutput()
     {
-        ConsoleSimulator c = new ConsoleSimulator("at.litec.Hello");
+        ConsoleSimulator c = new ConsoleSimulator("litec.Hello");
         try
         {
             String consoleOutput = c.getNextNonEmptyOutputLine();
@@ -46,7 +46,7 @@ public class AppTest
 
     public void testRepeater()
     {
-        ConsoleSimulator c = new ConsoleSimulator("at.litec.Repeater");
+        ConsoleSimulator c = new ConsoleSimulator("litec.Repeater");
         try
         {
             c.enterLine("test");
